@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""State module"""
+"""
+Writing class inheritating from BaseModel of State
+"""
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Create the state module"""
+    """
+    Creating class state
+    """
 
     name = ""

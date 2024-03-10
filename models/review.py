@@ -1,10 +1,16 @@
 #!/usr/bin/python3
-"""Review module"""
+"""
+Writing class inheritating from BaseModel
+Review module
+"""
+
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Review module"""
+    """
+    Defining class of Review
+    """
 
     place_id = ""
     user_id = ""
