@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-"""Amenity module"""
+"""
+Writing class inheritating from BaseModel
+Amenity module
+"""
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Amenity module"""
+    """
+    Defining Amenity class
+    """
     name = ""

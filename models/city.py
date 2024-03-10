@@ -1,10 +1,16 @@
 #!/usr/bin/python3
-"""City module"""
+"""
+Writing class inheritating from BaseModel
+City module
+"""
+
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """Create the city module"""
+    """
+    Creating class city
+    """
 
     state_id = ""
     name = ""
